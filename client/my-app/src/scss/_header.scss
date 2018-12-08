@@ -1,0 +1,27 @@
+@import "typography";
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #FAAF08;
+
+  .header__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+
+    .logo {
+      font-size: $font-size-base * 1.6;
+    }
+
+    .searchBox {
+      width: 500px;
+      height: 50px;
+      border: none;
+      border-radius: 40px;
+      line-height: 50px;
+    }
+  }
+}

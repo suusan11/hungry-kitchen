@@ -5,7 +5,7 @@ class Header extends Component {
         return (
             <header>
                 <div className="header__flex">
-                    <div className='logo'>hello</div>
+                    <div className='logo'>Hungry-Kitchen</div>
                     <input className='searchBox' type="text"/>
                 </div>
             </header>
