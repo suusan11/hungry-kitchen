@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 
 class Header extends Component {
 
+    state = {keyword: ''};
     onInputChangeHandler = (event) => {
-        console.log(event.target.value);
+        this.setState({keyword: event.target.value})
     }
 
     render() {
@@ -11,7 +12,7 @@ class Header extends Component {
             <header>
                 <div className="header__flex">
                     <div className='logo'>Hungry-Kitchen</div>
-                    <input className='searchBox' type="text" onChange={this.onInputChangeHandler}/>
+                    <input className='searchBox' onChange={this.onInputChangeHandler} value={this.state.keyword} />
                 </div>
             </header>
         );
