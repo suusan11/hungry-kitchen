@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 //import scss folder
-import './scss/style.scss';
+import './style.scss';
 
 //import each component
 import Header from "./components/headerComponent/header";
