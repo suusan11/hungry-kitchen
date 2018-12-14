@@ -5,7 +5,7 @@ export default class RecipeItem extends Component {
         const { imageUrl, title } = this.props;
 
         return(
-            <div className="RecipeItem">
+            <div className="recipeItem">
                 <div className="card">
                     <img src={imageUrl} alt=""/>
                     <h2>{ title }</h2>
