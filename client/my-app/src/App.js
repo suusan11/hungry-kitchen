@@ -7,7 +7,7 @@ import './style.scss';
 import Header from "./components/HeaderComponent/Header";
 import Main from "./components/MainComponent/Main";
 import Footer from "./components/FooterComponent/Footer";
-import Card from "./components/MainComponent/Card";
+import RecipeItem from "./components/MainComponent/RecipeItem";
 
 
 class App extends Component {
@@ -16,7 +16,7 @@ class App extends Component {
             <div className="App">
                 <Header />
                 <Main />
-                <Card/>
+                <RecipeItem/>
                 <Footer />
             </div>
         );

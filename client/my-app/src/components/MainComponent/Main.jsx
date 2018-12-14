@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { recipeItems } from '../../constants/recipeItems';
+import RecipeItem from "./RecipeItem";
 
 
 class Main extends Component {
@@ -8,7 +9,7 @@ class Main extends Component {
             <div className="main">
                 <h2>New Recipe</h2>
                 {recipeItems.map((recipeItem) => (
-                    <recipeItem
+                    <RecipeItem
                         key = {recipeItem.title}
                         imageUrl = {recipeItem.imageUrl}
                         title = {recipeItem.title}
