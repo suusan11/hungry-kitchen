@@ -7,15 +7,15 @@ class Card extends Component {
             <div className="cards">
                 <div className="card">
                     <img src={recipe} alt=""/>
-                    <h2>title</h2>
+                    <h2>Tofu with white sauce</h2>
                 </div>
                 <div className="card">
                     <img src={recipe} alt=""/>
-                    <h2>title</h2>
+                    <h2>Tofu with white sauce</h2>
                 </div>
                 <div className="card">
                     <img src={recipe} alt=""/>
-                    <h2>title</h2>
+                    <h2>Tofu with white sauce</h2>
                 </div>
             </div>
         );
