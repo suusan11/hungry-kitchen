@@ -1,3 +1,6 @@
+@import '../../scss/variable';
+@import '../../scss/typography';
+
 .main {
   width: 100%;
   margin: 5% auto;
@@ -6,11 +9,25 @@
     display: inline-block;
     padding-bottom: 10px;
     margin: 5% 2%;
-    border-bottom: 2px solid #00B23D;
+    border-bottom: 2px solid $green;
   }
 
   img {
     width: 3%;
+  }
+
+  button {
+    width: 15%;
+    height: 50px;
+    background-color: $green;
+    border: none;
+    border-radius: 30px;
+    font-size: $font-size-base;
+    color: $white;
+    padding: 10px;
+    margin-top: 3%;
+    margin-left: 85%;
+    cursor: pointer;
   }
 }
 

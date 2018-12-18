@@ -6,6 +6,15 @@ import Container from "../../Container/Container";
 import '../../Container/Container.scss';
 import recipeIcon from '../../assets/images/recipeicon.png';
 
+
+class RecipeButton extends Component {
+ render() {
+     return(
+         <button>See More</button>
+     );
+ }
+}
+
 class Main extends Component {
     render() {
         return (
@@ -22,6 +31,7 @@ class Main extends Component {
                         />
                     ))}
                     </div>
+                    <RecipeButton />
                 </div>
             </Container>
         );
