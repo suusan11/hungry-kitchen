@@ -6,8 +6,10 @@ export default class RecipeItem extends Component {
 
         return(
                 <div className="card">
-                    <img src={ imageUrl } alt=""/>
-                    <h3>{ title }</h3>
+                    <a href="#">
+                        <img src={ imageUrl } alt=""/>
+                        <h3>{ title }</h3>
+                    </a>
                 </div>
         );
     }
