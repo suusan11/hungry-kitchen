@@ -35,6 +35,10 @@
     padding: 10px;
     margin: 2% auto;
     cursor: pointer;
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 }
 
@@ -53,6 +57,10 @@
     background-color: $gray;
     border-radius: 10px;
     box-shadow: 5px 10px #D4D4D4;
+
+    &:hover {
+      opacity: 0.8;
+    }
 
     img {
       width: 100%;
