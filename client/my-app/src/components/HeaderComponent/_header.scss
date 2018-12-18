@@ -35,5 +35,9 @@ header {
       color: $blackOpacity;
       font-size: $font-size-base - 5px;
     }
+
+    :focus::placeholder {
+      color: transparent;
+    }
   }
 }
