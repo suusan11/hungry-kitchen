@@ -48,9 +48,12 @@
   .card {
     width: 25%;
     height: 300px;
+    text-align: center;
     margin: 2%;
     padding: 10px;
-    border: 1px solid #545454;
+    background-color: $gray;
+    border-radius: 10px;
+    box-shadow: 5px 10px #D4D4D4;
 
     img {
       width: 100%;
@@ -59,7 +62,8 @@
     }
 
     h3 {
-      padding-top: 5%;
+      font-weight: $font-weight-light;
+      padding-top: 10%;
     }
   }
 }
