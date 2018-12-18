@@ -12,7 +12,7 @@ class Header extends Component {
             <header>
                 <div className="header__flex">
                     <div className='logo'>Hungry-Kitchen</div>
-                    <input className='searchBox' onChange={this.onInputChangeHandler} value={this.state.keyword} />
+                    <input className='searchBox' onChange={this.onInputChangeHandler} value={this.state.keyword} placeholder="search with menu or ingredients"/>
                 </div>
             </header>
         );
