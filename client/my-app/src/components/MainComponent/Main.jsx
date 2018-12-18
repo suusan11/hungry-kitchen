@@ -4,12 +4,14 @@ import RecipeItem from "./RecipeItem";
 import './_main.scss';
 import Container from "../../Container/Container";
 import '../../Container/Container.scss';
+import recipeIcon from '../../assets/images/recipeicon.png';
 
 class Main extends Component {
     render() {
         return (
             <Container>
                 <div className="main">
+                    <img src={ recipeIcon } alt="recipe icon"/>
                     <h2>New Recipe</h2>
                     <div className="recipeItem">
                     {recipeItems.map((recipeItem) => (
