@@ -20,8 +20,10 @@ class Main extends Component {
         return (
             <Container>
                 <div className="main">
-                    <img src={ recipeIcon } alt="recipe icon"/>
-                    <h2>New Recipe</h2>
+                    <div className="titleFlex">
+                        <img src={ recipeIcon } alt="recipe icon"/>
+                        <h2>New Recipe</h2>
+                    </div>
                     <div className="recipeItem">
                     {recipeItems.map((recipeItem) => (
                         <RecipeItem
